@@ -26,9 +26,9 @@ WORKDIR /var/www/html
 COPY ../composer.json ../composer.lock* /var/www/html/
 
 # Ejecutar Composer para instalar las dependencias
-RUN composer install
+RUN composer install --no-interaction --optimize-autoloader
 
-# Ahora copiar el resto del código fuente (para evitar que se vuelva a instalar Composer si no es necesario)
+# Ahora copiar el resto del código fuente
 COPY ../ /var/www/html/
 
 # Habilitar mod_rewrite de Apache (para URL amigables)

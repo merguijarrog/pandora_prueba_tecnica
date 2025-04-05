@@ -26,7 +26,6 @@ services:
       - "8080:80"
     volumes:
       - ../:/var/www/html
-      - vendor_data:/var/www/html/vendor
     depends_on:
       - db
     env_file:
@@ -36,7 +35,6 @@ services:
 
 volumes:
   db_data:
-  vendor_data:
 
 networks:
   pandora_prueba_tecnica_network:
