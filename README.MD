@@ -3,7 +3,9 @@
 Este proyecto es una aplicación web desarrollada como parte de una prueba técnica.
 
 Incluye dos funcionalidades principales:
+
     - Decodificación de puntuaciones: Un sistema que permite interpretar puntuaciones de usuarios a partir de un formato codificado.
+
     - Gestión de citas: Una aplicación para realizar y registrar reservas de citas de pacientes.
 
 La aplicación se ejecuta en un contenedor Docker con un entorno LAMP (Linux, Apache, MySQL y PHP).
