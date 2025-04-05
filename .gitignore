@@ -1,0 +1,10 @@
+/vendor/
+
+/composer.lock
+
+/.env
+
+.vscode/
+
+docker-compose.override.yml
+.docker/
