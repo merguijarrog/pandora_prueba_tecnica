@@ -34,8 +34,7 @@ git clone https://github.com/merguijarrog/pandora_prueba_tecnica C:/pandora_prue
 1. Renombrar fichero example.env a .env en la raíz del proyecto.
 2. Introducir credenciales de la base de datos en el fichero '.env':
    ```
-    env
-    DB_HOST=localhost
+    DB_HOST=db
     DB_NAME=pandora_prueba_tecnica
     DB_USER=root
     DB_PASSWORD=yourpassword
